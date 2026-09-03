@@ -1,0 +1,8 @@
+body, .header-and-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.blocks, .header, ul, .title, .action-content {
+    display: flex;
+}
