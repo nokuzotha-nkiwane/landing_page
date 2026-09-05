@@ -1,4 +1,4 @@
-body, .header-and-title, .random-information {
+body, .header-and-title, .title-left, .random-information {
     display: flex;
     flex-direction: column;
 }
@@ -43,4 +43,13 @@ ul {
 
 .quote {
     padding: 0em 16em 5em;
+}
+
+.placeholder {
+    width: 32.5em;
+    height: 12em;
+    border: 0.2em solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
