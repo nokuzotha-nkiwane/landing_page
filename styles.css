@@ -1,10 +1,16 @@
-body, .header-and-title {
+body, .header-and-title, .random-information {
     display: flex;
     flex-direction: column;
 }
 
 .blocks, .header, ul, .title, .action-content {
     display: flex;
+    justify-content: space-between;
+}
+
+.random-information {
+    justify-content: center;
+    align-items: center;
 }
 
 a {
@@ -14,4 +20,11 @@ a {
 ul {
     list-style: none;
     padding: 0em;
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+.header-and-title, .action {
+    padding: 3.5em;
 }
