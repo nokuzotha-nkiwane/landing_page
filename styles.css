@@ -6,3 +6,12 @@ body, .header-and-title {
 .blocks, .header, ul, .title, .action-content {
     display: flex;
 }
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0em;
+}
