@@ -63,3 +63,14 @@ ul {
     justify-content: center;
     align-items: center;
 }
+
+.title-left {
+    width: 31em;
+    height: 12em;
+}
+
+h1 {
+    font-size: 3em;
+    padding: 0em;
+    margin: 0em;
+}
