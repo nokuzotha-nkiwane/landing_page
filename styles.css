@@ -5,6 +5,7 @@
 
 * {
     font-family: Roboto;
+    box-sizing: border-box;
 }
 
 body, .header-and-title, .title-left, .random-information {
@@ -51,8 +52,20 @@ ul {
 }
 
 .quote {
-    padding: 0em 16em 5em;
+    padding: 5em 16em 5em;
+    background-color: #E5E7EB;
+}
+
+.quote-words {
     font-style: italic;
+    font-size: 2.25em;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.quote-author {
+    text-align: right;
+    font-weight: 500;
 }
 
 .placeholder {
