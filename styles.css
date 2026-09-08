@@ -97,3 +97,7 @@ h1 {
 .footer {
     text-align: center;
 }
+
+.header-and-title, .footer {
+    background-color: #1F2937;
+}
