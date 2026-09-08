@@ -11,6 +11,7 @@
 body, .header-and-title, .title-left, .random-information {
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .blocks, .header, ul, .title, .action-content {
