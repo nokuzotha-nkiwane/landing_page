@@ -14,7 +14,7 @@ body, .header-and-title, .title-left, .random-information {
     margin: 0;
 }
 
-.blocks, .header, ul, .title, .action-content {
+.blocks, .header, ul, .title, .action {
     display: flex;
     justify-content: space-between;
 }
@@ -105,4 +105,8 @@ h1 {
 
 .header-and-title, .footer {
     background-color: #1F2937;
+}
+
+.action {
+    /* align-items: center; */
 }
