@@ -14,7 +14,7 @@ body, .header-and-title, .title-left, .random-information {
     margin: 0;
 }
 
-.blocks, .header, ul, .title, .action {
+.blocks, .header, ul, .title {
     display: flex;
     justify-content: space-between;
 }
@@ -36,7 +36,7 @@ ul {
     gap: 1em;
 }
 
-.header-and-title, .action {
+.header-and-title {
     padding: 0em 10em 6em;
 }
 
@@ -107,6 +107,15 @@ h1 {
     background-color: #1F2937;
 }
 
-.action {
-    /* align-items: center; */
+.action-content {
+    align-items: center;
+    margin: 4em 18em;
+}
+
+.action-content, .action-content button {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882F6;
+    border-radius: 0.4em;
+    padding: 1em 2em;
 }
