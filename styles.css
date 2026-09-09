@@ -41,6 +41,10 @@ ul {
     color: #F9FAF8;
 }
 
+.title {
+    padding: 3em 0em 1em;
+}
+
 .blocks {
     gap: 3em;
     padding: 2em 14em 5em;
