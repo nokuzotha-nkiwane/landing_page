@@ -147,6 +147,13 @@ p.main {
 
 .action-content button {
     border: 0.2em solid;
+}
+
+.title-left button {
+    border: 0.2em solid #3882F6;
+}
+
+.action-content button, .title-left button {
     width: 8em;
     height: 2.5em;
     font-weight: 500;
