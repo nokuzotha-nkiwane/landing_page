@@ -73,10 +73,10 @@ ul {
 .placeholder {
     width: 32.5em;
     height: 12em;
-    border: 0.2em solid red;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #787a83;
 }
 
 .title-left {
