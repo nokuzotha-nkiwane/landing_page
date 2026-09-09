@@ -140,7 +140,7 @@ p.main {
     gap: 0.2em;
 }
 
-.sign-up-paragraph, .title-left .subtext {
+.sign-up-paragraph, .title-left .subtext, a, .placeholder {
     font-weight: 200;
     font-size: 1.3;
 }
